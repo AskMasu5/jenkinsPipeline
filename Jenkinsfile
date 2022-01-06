@@ -14,6 +14,10 @@ pipeline {
                 echo 'Hello, JDK'
                 sh 'java -version'
             }
+        stage ('clean workspace') {
+            cleanWs()
+
+        }    
         }
     }
 }
