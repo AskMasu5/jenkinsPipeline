@@ -1,4 +1,4 @@
-// Declarative //
+// Declarative  pipeline//
 pipeline {
     agent any
 
