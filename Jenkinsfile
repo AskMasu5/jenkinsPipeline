@@ -41,4 +41,7 @@ node {
     stage('Deploy') {
         echo 'Deploying....'
     }
+        stage('Sonar Quality Gate') {
+        echo 'Sonar Quality Gate....'
+    }
 }
